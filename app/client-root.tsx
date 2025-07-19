@@ -12,7 +12,7 @@ export default function ClientRoot({
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
   return (
-    <div className="relative flex min-h-screen bg-[#EDF2FB]">
+    <div className="bg-glass/50 relative flex h-max">
       <button
         onClick={() => setSidebarOpen(true)}
         className={cn(
@@ -41,7 +41,7 @@ export default function ClientRoot({
         <Sidebar onClose={() => setSidebarOpen(false)} />
       </div>
 
-      <main className="flex-1 p-6">{children}</main>
+      <main className="h-max w-full flex-1">{children}</main>
     </div>
   );
 }
