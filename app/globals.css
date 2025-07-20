@@ -50,6 +50,62 @@
   --color-pastel-pink-300: #f5ccd4;
 }
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar {
+  overflow: scroll !important; /* Ensures both scrollbars are always visible */
+}
+
+/* WebKit Browsers (Chrome, Safari, Edge) */
+.scrollbar::-webkit-scrollbar {
+  width: 0px; /* Vertical scrollbar width */
+  height: 8px; /* Keeps horizontal scrollbar height default */
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #13315c; /* Scrollbar color */
+  border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Keeps the background invisible */
+}
+
+.v-scrollbar {
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+
+.v-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+
+.v-scrollbar::-webkit-scrollbar-thumb {
+  background: #13315c;
+  border-radius: 10px;
+}
+
+.v-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.v-no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.v-no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
