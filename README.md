@@ -1,4 +1,4 @@
-# Portfolio Template (Next.js + Tailwind + TypeScript)
+# Project Template (Next.js + Tailwind + TypeScript)
 
 A lightweight, opinionated starter template for building portfolio or project showcase sites with Next.js (App Router), TypeScript and Tailwind CSS. It's set up to be easy to copy/clone when starting a new project and includes a small sidebar, theme support, and sensible utilities.
 
