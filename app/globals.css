@@ -95,7 +95,7 @@
   --color-muted: var(--color-midnight-100); /* #B9D6F2 */
   --color-border: var(--color-midnight-875); /* #002D67 */
   --color-shadow: var(--color-midnight-950); /* #001E45 */
-  --color-surface: var(--color-midnight-1000); /* #00132D */
+  --color-surface: #ffffff; /* white */
   --color-surface-alt: var(--color-skyline-100); /* #DCEEF3 */
   --color-glass: var(--color-twilight-blue-300); /* #76a7f4 */
   --color-accent: var(--color-twilight-blue-violet-400); /* Primary CTA */
