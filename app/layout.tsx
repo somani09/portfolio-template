@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${plusJakarta.className} bg-glass/50 relative flex h-max antialiased`}
+        className={` ${plusJakarta.className} bg-glass/20 relative flex h-max antialiased`}
       >
         <ThemeProvider
           attribute="class" // Uses `class="light"` or `class="dark"`
@@ -44,7 +44,7 @@ export default function RootLayout({
           enableSystem={false} // Disable system theme detection
           disableTransitionOnChange
         >
-          <main className="bg-glass/50 relative flex h-max w-full antialiased">
+          <main className="relative flex h-max w-full antialiased">
             <Sidebar />
             <div className="h-max w-full flex-1">{children}</div>
           </main>
