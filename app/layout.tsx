@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Sidebar from "@/components/sidebar";
@@ -45,7 +44,7 @@ export default function RootLayout({
           enableSystem={false} // Disable system theme detection
           disableTransitionOnChange
         >
-          <main className="bg-glass/50 relative flex h-max antialiased">
+          <main className="bg-glass/50 relative flex h-max w-full antialiased">
             <Sidebar />
             <div className="h-max w-full flex-1">{children}</div>
           </main>

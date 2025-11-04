@@ -4,7 +4,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { cn, shadowDepthPrimary } from "@/app/utils";
+import { cn, shadowDepthPrimary } from "@/lib/utils";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 
 const navItems = [
