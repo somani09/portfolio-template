@@ -3,8 +3,12 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { pageConfig } from "./config";
+import { redirect } from "next/navigation";
 
 const Home = () => {
+  // Temporary redirect to style guide; Please remove when starting a new project.
+  redirect("/style-guide");
+
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (

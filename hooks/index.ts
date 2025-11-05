@@ -19,3 +19,4 @@
 export { useMediaQuery } from "./useMediaQuery";
 export { useCloseOnOutsideClick } from "./useCloseOnOutsideClick";
 export { useAxios } from "./useAxios";
+export { useIntersectionObserver } from "./useIntersectionObserver";
